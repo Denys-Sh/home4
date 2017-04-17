@@ -1,0 +1,321 @@
+
+body {
+	margin: 0
+	padding: 0;
+	background: #fcfcfc;
+}
+.wrapper{
+	width: 600px;
+	margin:0 auto;
+} 
+.main-firm{
+	overflow: hidden;
+	background: #214b90;
+	min-height: 360px;
+	color: #fff;
+	text-align: center;
+}
+.main-firm h4{
+	padding:45px 0 20px 0;
+	margin:0;
+	text-align: left;
+	font-family:Arial;
+}
+	.main-firm h3{
+	padding:134px 0 10px 0;
+	margin:0;
+	text-align: center;
+	font-style: italic;
+	
+}
+.main-firm h1{
+	padding:23px 0 20px 0;
+	margin:0;
+	text-align:center;
+	font-family:Arial;
+	text-transform: uppercase;
+}
+.main-firm button{
+	text-align: center;
+	display: inline-block;
+	padding: 10px 20px 10px;
+	border: none;
+	background: #102548;
+	border-radius: 40px;
+	color: #fff;
+}
+.Gallery {
+	float: left;
+	margin: 45px 0 0;
+}
+
+.goto button{
+	float: right;
+	margin: 45px 0 0;
+	border: 1px solid #fff;
+	color: #fff;
+	background: #214b90;
+}
+.webmob{
+	overflow: hidden;
+	background: #ffffff;
+	min-height: 370px;
+}
+.comp {
+	float: left;
+	margin: 40px 30px 20px 0px;
+	width: 270px;
+	overflow: hidden;
+	min-height: 340px;
+}
+.imeg-blok{
+	display: block;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	margin: 20px 0 5px 13px;
+	width: 100%;
+}
+.webdes {
+	text-align: center;
+	margin: 10px 0px 10px 13px;
+	
+}
+.textwd {
+	text-align: center;
+	margin: 10px 0px 10px 13px;
+	color: #999999;
+}
+.mob{
+	float: right;
+	margin: 40px 30px 20px 0px;
+	width: 270px;
+	overflow: hidden;
+	min-height: 340px;
+}
+.imeg-blok2{
+	display: block;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	margin: 20px 0 5px 13px;
+	width: 100%;
+}
+.mobdes {
+	text-align: center;
+	margin: 10px 0px 10px 13px;
+
+}
+.textmob {
+	text-align: center;
+	margin: 10px 0px 10px 13px;
+	color: #999999;
+}
+.logo{
+	overflow: hidden;
+background: #ececec;
+min-height: 510px;
+text-align: center;
+}
+.forta{
+	width: 600px;
+	margin:0 auto;
+}
+.forta h2{
+	padding:45px 0 20px 0;
+	margin:0;
+	color: #214b90;
+	font-family:Arial;
+}
+.texlogo {
+	padding:20px 0 20px 0;
+	margin:0 50px;
+	color: #999999;
+
+}
+.flex-container {
+	flex-wrap: wrap;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: 637px;
+    margin: 0 auto;
+}
+
+.flex-item{
+	width: 200px;
+	height: 200px;
+	background: coral;
+	margin: 10px 0;
+}
+
+
+
+.ex2 {
+	width: 600px;
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 0px 10px 5px;
+}
+
+
+/* .ex2 li:nth-child(2){
+	height: 108px;
+} */
+
+
+.ex2 li{
+	display: block;
+	width: 178px;
+	min-height: 120px;
+	background: #ccc;
+	float: left;
+	margin: 4px 10px 4px 10px;
+	text-align: center;
+}
+.ex2 img{
+	float: right;
+ 	 display: block;
+ 	 text-align: center
+ 	}
+.wrapper2{
+	width: 600px;
+	margin:0 auto;
+} 
+.last{
+	overflow: hidden;
+	background: #ffffff;
+	min-height: 360px;
+	text-align: center;
+
+
+
+
+
+}
+.flex-container3{
+	width: 600px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction:row;
+
+
+/* 	justify-content:flex-start; */
+
+/* 	justify-content:flex-end; */	
+
+	/*justify-content:center;	*/
+
+justify-content:space-between;	
+
+	/*justify-content:space-around; */	
+
+
+/*align-items: flex-start;
+/* 	align-items: flex-end; */
+/* 	align-items: center; */
+	/*align-items: stretch; */
+	
+
+
+}
+
+
+/* 	flex-direction:row-reverse; */
+/* 	flex-direction:column-reverse; */
+/* 	flex-direction:column; */
+
+
+
+
+
+.flex-item2{
+	width: 200px;
+	/*border: 1px solid;*/
+/* 	height: 200px; */
+	/*background: coral; */
+	margin: 10px 0;
+}
+
+.wrapper2 h2{
+	padding:50px 0 10px 20px;
+	margin:0;
+	text-align: left;
+	font-family:Arial;
+	color: #214b90;
+}
+
+.text2{
+	padding: 4px 0 20px 0;
+	margin:0;
+	text-align:center;
+	color: #c6c6c6;
+}
+
+.flex-item2 button{
+	text-align: center;
+	display: inline-block;
+	padding: 10px 20px 10px;
+	border: none;
+	background: #76ae29;
+	border-radius: 40px;
+	color: #fff;
+	margin:73px 0;
+}
+
+   hr {
+    border: none; /* Убираем границу */
+    background-color: #c6c6c6; /* Цвет линии */
+    color: #c6c6c6; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    margin: 55px 20px 40px;
+       }
+
+    .text3{
+	padding: 2px 0 3px 0;
+	margin:0;
+	text-align:center;
+	color: #c6c6c6;
+}
+
+
+.ex5 {
+	width: 250px;
+	text-align: center;
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 0px 10px 170px;
+}
+
+
+/* .ex2 li:nth-child(2){
+	height: 108px;
+} */
+
+
+.ex5 li{
+	display: block;
+	border: none;
+	width: 25px;
+	min-height: 25px;
+	float: left;
+	margin: 4px 10px 25px 10px;
+	text-align: center;
+}
+.ex5 img{
+	float: right;
+ 	 display: block;
+ 	 text-align: center
+ 	}
+}
+
+.ex5 button {
+	padding:  0;
+	margin: 0 auto;
+	text-align: center;
+	background: #ffffff;
+	display: inline-block;
+	padding: 0;
+	border: none;
+
+}
